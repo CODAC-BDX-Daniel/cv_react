@@ -10,8 +10,8 @@ import AboutMe from "./views/AboutMe";
 import Portfolio from "./views/Portfolio";
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {faUser, faFileCode, faEnvelope} from '@fortawesome/free-solid-svg-icons';
-
-library.add(faUser, faFileCode, faEnvelope)
+import { fab } from '@fortawesome/free-brands-svg-icons'
+library.add(faUser, faFileCode, faEnvelope,fab)
 
 
 function App() {
