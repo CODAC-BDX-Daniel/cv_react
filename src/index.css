@@ -100,8 +100,8 @@ nav a {
 .aboutMe_container {
     /*border: 2px solid red;*/
     width: 60%;
-    margin: 20px auto;
     background-color: var(--white);
+    margin: 20px auto;
     border-radius: 10px;
     padding: 20px;
 }
@@ -111,17 +111,18 @@ nav a {
     margin: 10px 0;
 }
 
-.aboutMe_container a{
+.aboutMe_container a {
     text-decoration: none;
     cursor: pointer;
 }
 
-.experience_card{
+.experience_card {
     /*border: 2px solid var(--titleColor);*/
     margin-top: 20px;
     border-radius: 5px;
     display: flex;
 }
+
 .experience_card img {
     display: block;
     object-fit: contain;
@@ -129,33 +130,36 @@ nav a {
     height: 100px;
 }
 
-.experience_info{
+.experience_info {
+    /*border: 2px solid orange;*/
     margin-left: 20px;
 }
 
-.experience_info a{
-   color: var(--mainTextColor);
+.experience_info a {
+    color: var(--mainTextColor);
 }
 
-.experience_info span{
+.experience_info span {
     /*font-weight: bold;*/
     color: var(--titleColor);
 }
-.experience_info h3,h4{
+
+.experience_info h3, h4 {
     margin-top: 10px;
 }
 
-.experience_card p{
+.experience_card p {
     margin-left: 10px;
 }
-.stack_container{
+
+.stack_container {
     /*border: 2px solid red;*/
     margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.stack_container div{
+.stack_container div {
     /*border: 2px solid red;*/
     display: flex;
     flex-direction: column;
@@ -164,8 +168,52 @@ nav a {
 }
 
 .stack_container p {
-    font-size: 0,8em;
+    font-size: 0, 8em;
+}
+
+/*PORTFOLIO*/
+
+.portfolio_card {
+    /*border: 2px solid red;*/
+    /*background-color: green;*/
+    background-color: var(--white);
+    border-radius: 10px;
+    /*background-color: var(--white);*/
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px 20px;
+    justify-content: flex-start;
+}
+
+.portfolio_card a {
+    text-decoration: none;
+}
+
+.portfolio_card a:hover {
+    font-weight: bold;
+    color: var(--titleColor)
 }
 
 
+.portfolio_card p {
+    margin-left: 10px;
+}
 
+.carroussel_container {
+    background-color: white;
+    border: 2px solid pink;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.carroussel_container img{
+    width: 300px;
+    height: 300px;
+    object-fit:contain;
+    /*border: 2px solid black;*/
+}
