@@ -34,12 +34,6 @@ const AboutMe = () => {
                 <KedgeBs/>
                 <MasterUniv/>
             </div>
-            <div>
-                <h1>Stack technique</h1>
-                <p>Html5</p>
-                <p>Css3</p>
-                <p>Vanilla Javascript</p>
-            </div>
         </div>
     );
 };

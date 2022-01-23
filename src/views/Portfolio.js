@@ -1,6 +1,4 @@
 import React from 'react';
-import ProjectMarvel from "../components/ProjectMarvel";
-import ProjectWidgets from "../components/ProjectWidgets";
 import PortfolioProject from "../components/PortfolioProject";
 
 const Portfolio = () => {
@@ -35,7 +33,8 @@ const Portfolio = () => {
         },
         {
             name: 'Widgets',
-            screenShots: ['/images/marvel1.png'],
+            // screenShots: ['/images/widgets_home.png','/images/widgets_register.png','/images/widgets_crypto.png'],
+            screenShots: ['/images/widgets_home.png'],
             url: 'https://widgets-dashboard.netlify.app/',
             stack: {
                 'front': ['React JS'],

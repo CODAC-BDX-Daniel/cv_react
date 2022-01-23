@@ -10,7 +10,7 @@ const Header = () => {
               </div>
               <div className='buttons_wrapper'>
                   <button>ME CONTACTER</button>
-                  <button>TELECHARGER MON CV</button>
+                  <button><a href='/CV_Joel_RAZAFINJATOVO.pdf' download>TELECHARGER MON CV</a></button>
               </div>
       </header>
     );
