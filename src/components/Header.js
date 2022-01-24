@@ -11,7 +11,6 @@ const Header = () => {
               <div className='buttons_wrapper'>
                   {/*<button>ME CONTACTER</button>*/}
                   <button><a href='/CV_Joel_RAZAFINJATOVO.pdf' download>TELECHARGER MON CV</a></button>
-
               </div>
       </header>
     );

@@ -10,6 +10,10 @@ const AboutMe = () => {
     return (
         <div className='aboutMe_container'>
             <div>
+                <div className='download_resume'>
+                    {/*<button>ME CONTACTER</button>*/}
+                    <button><a href='/CV_Joel_RAZAFINJATOVO.pdf' download>TELECHARGER MON CV</a></button>
+                </div>
                 <h1>Profil</h1>
                 <p className='intro'>
                     Ancien Acheteur dans l'industrie, ma passion pour le monde du numérique m'a amené à

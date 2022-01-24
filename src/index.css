@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+
 :root {
     --white: #ffffff;
     --black: #00000;
@@ -24,6 +25,7 @@
     background-color: var(--grey);
     /*height: 100vh;*/
 }
+
 
 header {
     /*background-image: url("/public/images/header_bg.jpeg");*/
@@ -70,6 +72,7 @@ header button {
     color: var(--white);
 }
 
+
 header button:hover {
     cursor: pointer;
 }
@@ -115,6 +118,10 @@ nav a {
     margin: 20px auto;
     border-radius: 10px;
     padding: 20px;
+}
+
+.aboutMe_container .download_resume {
+    display: none
 }
 
 .aboutMe_container .intro {
@@ -316,5 +323,60 @@ nav a {
 
 }
 
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    * {
+        /*font-size: 0.8em;*/
+    }
+
+    header img {
+        width: 30%;
+    }
+
+    header button {
+        display: none;
+    }
+    .aboutMe_container {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .aboutMe_container .download_resume {
+        display: block;
+        text-align: center;
+        border-bottom: 10px;
+    }
+
+    .aboutMe_container .download_resume button {
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 2px solid var(--titleColor);
+        background: none;
+        color: var(--white);
+    }
+
+
+    .aboutMe_container img {
+        display: none;
+    }
+
+    .carroussel_container {
+        width: 100%;
+    }
+
+    .project_container {
+        width: 100%;
+    }
+
+    .portfolio_card {
+        flex-direction: column;
+    }
+
+    .contactCard {
+        width: 90%;
+        font-size: 0.8em;
+
+    }
+}
 
 
