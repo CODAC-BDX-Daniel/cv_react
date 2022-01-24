@@ -27,9 +27,9 @@ const PortfolioProject = (props) => {
                     )}
                     <h4>Fonctionnalités</h4>
                     {projectData.specs.map(spec => <p>{spec}</p>)}
-                    <h4><a href={projectData.github.front} target="_blank">Github Front-End</a></h4>
+                    <h4><a href={projectData.github.front} target="_blank" className='github'>Github Front-End</a></h4>
                     {projectData.github.back &&
-                    <h4><a href={projectData.github.back} target="_blank"> Github Back-End</a></h4>
+                    <h4><a href={projectData.github.back} target="_blank" className='github'> Github Back-End</a></h4>
                     }
                 </div>
             </div>

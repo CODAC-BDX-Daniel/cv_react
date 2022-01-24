@@ -22,7 +22,7 @@ const AboutMe = () => {
                     NextJs,
                     Node JS, MongoDB, ExpressJS, Nest JS et React Native). <br/>
                     Vous trouverez à travers ce site les informations relatives à mon parcours ainsi que les projets que
-                    j'ai développés. <br/> <span>Dans l'attente de vous rencontrer, je vous souhaite une bonne visite!</span>
+                    j'ai développés. <br/> <span> Bonne visite et à bientôt!<img src='/images/smiley.png' style={{width:'20px',marginLeft:'5px', position:'relative', top: '3px'}}/></span>
                 </p>
             </div>
             <div>

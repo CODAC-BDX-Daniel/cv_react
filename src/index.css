@@ -117,12 +117,12 @@ nav a {
     padding: 20px;
 }
 
-.aboutMe_container .intro{
+.aboutMe_container .intro {
     text-indent: 50px;
     line-height: 1.8;
 }
 
-.aboutMe_container .intro > span{
+.aboutMe_container .intro > span {
     display: block;
     text-indent: 50px;
 }
@@ -220,14 +220,23 @@ nav a {
     /*background-color: green;*/
     /*background-color: var(--white);*/
     display: flex;
-
 }
 
 .portfolio_card a {
     text-decoration: none;
 }
 
-.project_url{
+.portfolio_card .github {
+    color: var(--titleColor);
+}
+
+.portfolio_card .github:hover {
+    position: relative;
+    bottom: 2px
+}
+
+
+.project_url {
     color: var(--titleColor);
 }
 
