@@ -14,7 +14,7 @@ const PortfolioProject = (props) => {
                 <div className='experience_info'>
                     <a href={projectData.url} target="_blank">
                         <h3>Url</h3>
-                        <p>{projectData.url}</p>
+                        <p className='project_url'>{projectData.url}</p>
                     </a>
                     <h4>Front-End</h4>
                     {projectData.stack.front.map(stackfront => <p>{stackfront}</p>)}

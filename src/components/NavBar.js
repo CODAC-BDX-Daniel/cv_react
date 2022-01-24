@@ -17,12 +17,12 @@ const NavBar = () => {
                     <p>Portfolio</p>
                 </div>
             </Link>
-            {/*<Link to='/contact'>*/}
-            {/*    <div className='navButton'>*/}
-            {/*        <FontAwesomeIcon icon="envelope" color="white" size="2x"/>*/}
-            {/*        <p>Contact</p>*/}
-            {/*    </div>*/}
-            {/*</Link>*/}
+            <Link to='/contact'>
+                <div className='navButton'>
+                    <FontAwesomeIcon icon="envelope" color="white" size="2x"/>
+                    <p>Contact</p>
+                </div>
+            </Link>
         </nav>
     );
 };

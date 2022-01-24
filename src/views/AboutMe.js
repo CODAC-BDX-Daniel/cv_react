@@ -11,15 +11,18 @@ const AboutMe = () => {
         <div className='aboutMe_container'>
             <div>
                 <h1>Profil</h1>
-                <p>
+                <p className='intro'>
                     Ancien Acheteur dans l'industrie, ma passion pour le monde du numérique m'a amené à
                     entamer ma reconversion professionnelle dans le
                     Développement Web. <br/>
-                    Je recherche actuellement un stage de 4 à 6 mois(React JS, NODE JS MONGO DB).<br/>
-                    Je m'intéresse particulièrement aux technologies basées sur Javascript (Typescript, React JS, Redux,
+                    Dans le cadre de ma formation au sein de la CODING ACADEMY EPITECH, je recherche un stage de 4 à 6
+                    mois en tant que Développeur Front-End ou Fullstack pouvant démarrer à compter du 1er mars. <br/>Je
+                    m'intéresse particulièrement aux technologies basées autour de Javascript (Typescript, React JS,
+                    Redux,
                     NextJs,
-                    Node JS, MongoDB, ExpressJS, Nest JS et React Native) <br/>
-
+                    Node JS, MongoDB, ExpressJS, Nest JS et React Native). <br/>
+                    Vous trouverez à travers ce site les informations relatives à mon parcours ainsi que les projets que
+                    j'ai développés. <br/> <span>Dans l'attente de vous rencontrer, je vous souhaite une bonne visite!</span>
                 </p>
             </div>
             <div>

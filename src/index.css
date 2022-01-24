@@ -70,6 +70,10 @@ header button {
     color: var(--white);
 }
 
+header button:hover {
+    cursor: pointer;
+}
+
 nav {
     /*background-color: orange;*/
     background-color: #000000;
@@ -111,6 +115,16 @@ nav a {
     margin: 20px auto;
     border-radius: 10px;
     padding: 20px;
+}
+
+.aboutMe_container .intro{
+    text-indent: 50px;
+    line-height: 1.8;
+}
+
+.aboutMe_container .intro > span{
+    display: block;
+    text-indent: 50px;
 }
 
 .aboutMe_container h1 {
@@ -179,7 +193,7 @@ nav a {
 }
 
 /*PORTFOLIO*/
-.project_container{
+.project_container {
     /*border: 2px solid red;*/
     /*background-color: green;*/
     background-color: var(--white);
@@ -213,6 +227,10 @@ nav a {
     text-decoration: none;
 }
 
+.project_url{
+    color: var(--titleColor);
+}
+
 .portfolio_card a:hover {
     font-weight: bold;
     color: var(--titleColor)
@@ -240,3 +258,54 @@ nav a {
     object-fit: fill;
     /*border: 2px solid black;*/
 }
+
+/*CONTACT ME*/
+.contactMe_container {
+    /*background-color: black;opacity: 0.3;*/
+    /*background-color: black;*/
+    height: 100vh;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    /*align-items: center;*/
+    z-index: 10;
+}
+
+.contactCard {
+    margin-top: 40px;
+    background-color: var(--white);
+    border-radius: 5px;
+    /*background-color: green;opacity: 1;*/
+    opacity: 1;
+    /*background-color: green;*/
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    font-size: var(--bigText);
+}
+
+.contactCard_info {
+    /*border: 2px solid red;*/
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.contactCard_info img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.contactCard_info > div {
+
+}
+
+
+
