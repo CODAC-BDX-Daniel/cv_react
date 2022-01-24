@@ -16,7 +16,7 @@ const ContactMe = () => {
                 </div>
                 <div className='contactCard_info'>
                     <img src='/images/globe_icon.png'/>
-                    <div>www.monsiteweb.com</div>
+                    <div>https://joel-razafinjatovo.netlify.app</div>
                 </div>
                 <div className='contactCard_info'>
                     <img src='/images/location_icon.png'/>
