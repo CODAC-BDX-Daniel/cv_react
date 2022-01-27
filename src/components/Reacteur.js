@@ -21,7 +21,7 @@ const Reacteur = () => {
                 <p>Déploiement: Netlify, Heroku</p>
                 <p>Mobile: React Native</p>
                 <h4>Outils:</h4>
-                <p>VS Code, Git, Github, Slack</p>
+                <p>VS Code, Git, Github, Postman, Slack</p>
             </div>
         </div>
     );

@@ -19,7 +19,7 @@ const CodingAcademy = () => {
                 <p>Découverte: Python</p>
                 <p>Mobile: React Native</p>
                 <h4>Outils:</h4>
-                <p>WebStorm, PHPStorm, Git, Github, Trello, Figma, Teams</p>
+                <p>WebStorm, PHPStorm, Git, Github, Postman, Trello, Figma, Teams</p>
             </div>
         </div>
     );
