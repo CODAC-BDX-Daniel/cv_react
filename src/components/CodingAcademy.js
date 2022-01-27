@@ -7,7 +7,7 @@ const CodingAcademy = () => {
                 <img alt='codingAcademy_logo' src='/images/codingAcademy_logo.png'/>
             </a>
             <div className='experience_info'>
-                <h3><a href='https://www.coding-academy.fr/' target="_blank" rel="noreferrer">CODING ACADEMY EPITECH (Bordeaux - 33)</a></h3>
+                <h3><a href='https://www.coding-academy.fr/' target="_blank" rel="noreferrer">CODING ACADEMY EPITECH (Bordeaux-33)</a></h3>
                 <h5>Titre RNCP Niveau 5 bac+2 Intégrateur Développeur Web</h5>
                 <p>Octobre 2021 - Février 2022</p>
                 <h4>Programme:</h4>

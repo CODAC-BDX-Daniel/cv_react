@@ -9,7 +9,7 @@ const Reacteur = () => {
             </a>
             <div className='experience_info'>
 
-                <h3><a href='https://www.lereacteur.io/' target="_blank" rel="noreferrer">LE REACTEUR - Coding Bootcamp (Paris - 75)
+                <h3><a href='https://www.lereacteur.io/' target="_blank" rel="noreferrer">LE REACTEUR - Coding Bootcamp (Paris-75)
                 </a></h3>
                 <p>Septembre 2020 - Février 2021 (Temps Partiel - Cours du soir) </p>
                 <h4>Programme:</h4>
