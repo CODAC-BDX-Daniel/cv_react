@@ -5,6 +5,7 @@ import Reacteur from "../components/Reacteur";
 import CodingAcademy from "../components/CodingAcademy";
 import KedgeBs from "../components/KedgeBs";
 import MasterUniv from "../components/MasterUniv";
+//COUCOU GOGOL 
 
 const AboutMe = () => {
     return (
